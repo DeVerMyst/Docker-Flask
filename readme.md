@@ -10,11 +10,6 @@ docker build -t fl .
 docker images
 docker run fl
 
-ATTENTION AUX VERSIONS 
-pip uninstall  Flask Jinja2
-pip install Flask Jinja2
-pip install shinx --upgrade
-pip install ruamel.yaml --upgrade
 
 RUN 
 docker run fl  
