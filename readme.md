@@ -1,5 +1,6 @@
 cd /path/to/python-docker
 pip install Flask
+
 pip freeze | grep Flask >> requirements.txt
 touch app.py
 
